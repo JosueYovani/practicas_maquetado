@@ -1,11 +1,55 @@
 * {
+  border-radius: 8px;
   color: whitesmoke;
   font-size: 22px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
   margin: 0;
   padding: 0;
 }
 
-header.header__box {
-  background: yellowgreen;
-    padding: 20px;
+header.header__container {
+  background: #01ff6d;
+  color: black;
+  padding: 20px;
+}
+
+header.header__container > nav.header__nav {
+  background: #26ae60;
+  margin: 5px 0;
+  padding: 15px;
+}
+
+aside {
+  display: inline-block;
+  height: 62vh;
+  vertical-align: middle;
+  background: #f2994a;
+  padding: 10px;
+  text-align: center;
+  width: 15vw;
+}
+
+main.main__container {
+  background: #eb5757;
+  display: inline-block;
+  height: 60vh;
+  margin: 20px;
+  padding: 20px;
+  vertical-align: middle;
+  width: 63vw;
+}
+
+main.main__container > article.main__text {
+  background: #f2f2f2;
+  color: black;
+  margin: 20px 0;
+  padding: 20px;
+}
+
+footer.footer__container {
+  background: #bb6bd9;
+  height: 60px;
+  padding: 20px;
 }
